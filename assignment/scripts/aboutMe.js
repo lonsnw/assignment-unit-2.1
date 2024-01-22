@@ -120,7 +120,20 @@ console.log(mostPets);
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
 let luckyResult;
-
+switch (luckyNumber){
+  case 1:
+    console.log('First is the worst');
+    break;
+  case 2:
+    console.log('Second is the best');
+    break;
+  case 3:
+    console.log('Third is the one with the polka dot dress');
+    break;
+  default:
+    console.log('Luck is what happens when preparation meets opportunity')
+}
+console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 
