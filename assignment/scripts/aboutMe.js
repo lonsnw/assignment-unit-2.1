@@ -119,6 +119,9 @@ console.log(mostPets);
 //      Otherwise, "Luck is what happens when preparation meets opportunity"
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
+
+//used https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch AND https://www.w3schools.com/js/js_switch.asp for this
+
 let luckyResult;
 switch (luckyNumber){
   case 1:
@@ -136,8 +139,20 @@ switch (luckyNumber){
 console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
+// 12 - Create a variable called `result`. Create a conditional:
+//      if adventurous is true, set `result` to be "Adventures are great!", 
+//      if it's not true,  set `result` to be "How about we stay home?"
+//      Console log the value of `result`
 
+//used https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_operator for this one
 
+function ternaryResult(adventurous){
+  return adventurous ? 'Adventures are great!': 'How about we stay home?';
+}
+console.log(ternaryResult(true));
+//expect Adventures are great
+console.log(ternaryResult(false));
+//expect to stay home
 
 
 
