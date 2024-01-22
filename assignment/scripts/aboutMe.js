@@ -21,7 +21,7 @@ console.log(luckyNumber);
 //     'My name is (full name), and I think (lucky number) is a winner!'.
 //     Refer back to the videos if you need help with this one.
 //     Console log the value of `introduction`
-let introduction = 'my name is ' + fullName + ', and i think ' + luckyNumber + ' is a winner!';
+let introduction = 'My name is ' + fullName + ', and I think ' + luckyNumber + ' is a winner!';
 console.log(introduction);
 
 // 6 - Create a variable named `adventurous` and set it to a boolean value (true or false)
@@ -120,22 +120,24 @@ console.log(mostPets);
 //      You'll need to research how to use switch statements!
 //      console.log `luckyResult` after the conditional has run.
 
-//used https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch AND https://www.w3schools.com/js/js_switch.asp for this
+//used https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch AND https://www.w3schools.com/js/js_switch.asp AND https://www.programiz.com/javascript/switch-statement for this
 
 let luckyResult;
-switch (luckyNumber){
-  case 1:
+switch (luckyResult){
+  case luckyNumber=1:
     console.log('First is the worst');
     break;
-  case 2:
+  case luckyNumber=2:
     console.log('Second is the best');
     break;
-  case 3:
+  case luckyNumber=3:
     console.log('Third is the one with the polka dot dress');
     break;
   default:
     console.log('Luck is what happens when preparation meets opportunity')
 }
+
+luckyNumber = 75;
 console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
