@@ -122,22 +122,35 @@ console.log(mostPets);
 
 //used https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch AND https://www.w3schools.com/js/js_switch.asp AND https://www.programiz.com/javascript/switch-statement for this
 
-let luckyResult;
+let luckyResult=1;
 switch (luckyResult){
-  case luckyNumber=1:
+  case luckyResult=1:
     console.log('First is the worst');
     break;
-  case luckyNumber=2:
+  case luckyResult=2:
     console.log('Second is the best');
     break;
-  case luckyNumber=3:
+  case luckyResult=3:
     console.log('Third is the one with the polka dot dress');
     break;
   default:
     console.log('Luck is what happens when preparation meets opportunity')
 }
 
-luckyNumber = 75;
+luckyResult = 5;
+switch (luckyResult){
+  case luckyResult=1:
+    console.log('First is the worst');
+    break;
+  case luckyResult=2:
+    console.log('Second is the best');
+    break;
+  case luckyResult=3:
+    console.log('Third is the one with the polka dot dress');
+    break;
+  default:
+    console.log('Luck is what happens when preparation meets opportunity')
+}
 console.log(luckyResult);
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
@@ -155,11 +168,6 @@ console.log(ternaryResult(true));
 //expect Adventures are great
 console.log(ternaryResult(false));
 //expect to stay home
-
-
-
-
-
 
 
 
