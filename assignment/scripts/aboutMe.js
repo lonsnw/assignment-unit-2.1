@@ -122,36 +122,55 @@ console.log(mostPets);
 
 //used https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/switch AND https://www.w3schools.com/js/js_switch.asp AND https://www.programiz.com/javascript/switch-statement for this
 
-let luckyResult=1;
-switch (luckyResult){
-  case luckyResult=1:
-    console.log('First is the worst');
-    break;
-  case luckyResult=2:
-    console.log('Second is the best');
-    break;
-  case luckyResult=3:
-    console.log('Third is the one with the polka dot dress');
-    break;
-  default:
-    console.log('Luck is what happens when preparation meets opportunity')
-}
+// let luckyResult=1;
+// switch (luckyResult){
+//   case luckyResult=1:
+//     console.log('First is the worst');
+//     break;
+//   case luckyResult=2:
+//     console.log('Second is the best');
+//     break;
+//   case luckyResult=3:
+//     console.log('Third is the one with the polka dot dress');
+//     break;
+//   default:
+//     console.log('Luck is what happens when preparation meets opportunity')
+// }
 
-luckyResult = 5;
-switch (luckyResult){
-  case luckyResult=1:
-    console.log('First is the worst');
+// luckyResult = 5;
+// switch (luckyResult){
+//   case luckyResult=1:
+//     console.log('First is the worst');
+//     break;
+//   case luckyResult=2:
+//     console.log('Second is the best');
+//     break;
+//   case luckyResult=3:
+//     console.log('Third is the one with the polka dot dress');
+//     break;
+//   default:
+//     console.log('Luck is what happens when preparation meets opportunity')
+// }
+// console.log(luckyResult);
+
+//trying again based on feedback from ally:
+
+let luckyResult=``;
+switch (luckyNumber){
+  case 1:
+    luckyResult = 'First is the worst';
     break;
-  case luckyResult=2:
-    console.log('Second is the best');
+  case 2:
+    luckyResult = 'Second is the best';
     break;
-  case luckyResult=3:
-    console.log('Third is the one with the polka dot dress');
+  case 3:
+    luckyResult = 'Third is the one with the polka dot dress';
     break;
   default:
-    console.log('Luck is what happens when preparation meets opportunity')
+    luckyResult = 'Luck is what happens when preparation meets opportunity'
 }
 console.log(luckyResult);
+
 
 // 17 -- Rewrite question 12 with a `ternary` operator. You'll need to do research!
 // 12 - Create a variable called `result`. Create a conditional:
